@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  int a,b,tmp,x,y,q,lastX,lastY,origA,origB;
+
+  cout << "Enter positive integers a, b: ";
+  cin >> a >> b;
+
+  y = lastX = 1;
+  x = lastY = 0;
+
+  if (a < b) {
+    tmp = a;
+    a = b;
+    b = tmp;
+  }
+
+  origA = a;
+  origB = b;
+
+  while (b) {
+    q = a / b;
+
+    tmp = a % b;
+    a = b;
+    b = tmp;
+
+    tmp = x;
+    x = lastX - q * x;
+    lastX = tmp;
+
+    tmp = y;
+    y = lastY - q * y;
+    lastY = tmp;
+  }
+
+  cout << origA << " * " << lastX << " + " << origB << " * " << lastY
+       << " = " << a << endl;
+
+  return 0;
+}

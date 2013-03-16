@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  int i=3,data[5],j=-5;
+
+  data[7] = 7;
+
+  cout << i << ' ' << j << endl;
+
+cout << &i << data << &j << endl;
+
+  return 0;
+}

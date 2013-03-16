@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  int grade=0,sum=0,count=0;
+
+  while (grade >= 0) {
+    cout << "Enter a grade (-1 to quit): ";
+    cin >> grade;
+
+    sum += grade;
+    count++;
+  }
+
+  cout << "Average: " << sum / count << endl;
+
+  return 0;
+}

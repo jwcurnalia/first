@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+void foo(int n) {
+
+  n++;
+}
+
+int main(void) {
+  int n=5;
+
+  foo(n);
+
+  cout << "n = " << n << endl;
+  
+  return 0;
+}

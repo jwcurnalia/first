@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  char str[32];
+
+  cout << "Enter your name: ";
+//  cin >> str;
+  cin.getline(str,31);
+
+  cout << "Hello, " << str << endl;
+
+  for (int i=0;str[i]!=0;i++)
+    cout << (int)(str[i]) << endl;
+
+  return 0;
+}

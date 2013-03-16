@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  int i,f=1,last=0;
+
+  for (i=0;i<20;i++) {
+    cout << i << "! = " << f << endl;
+    last = f;
+    f = f * (i + 1);				// f *= i + 1;
+    if (last > f) {
+      cout << "Overflow on next value!\n";
+      break;
+    }
+  }
+
+  return 0;
+}

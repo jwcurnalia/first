@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstring>
+#include <string>
+
+using namespace std;
+
+int main(void) {
+//  string str;
+  char i=0,str[8],j=5;
+
+  cout << "Enter a string: ";
+  cin >> str;
+
+  cout << "Length of string: " << strlen(str) << endl;
+
+  cout << i << j << endl;
+
+  return 0;
+}

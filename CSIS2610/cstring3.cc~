@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main(void) {
+  char str1[32],str2[32];
+
+  cout << "Enter two words: ";
+  cin >> str1 >> str2;
+
+//  if (str1 == str2)   <-- this does not work!
+  if (strcmp(str1,str2) == 0)
+    cout << "Words are equal\n";
+  else
+    cout << "Words are not equal\n";
+
+//  if (str1 < str2)    <-- no!
+  if (strcmp(str1,str2) < 0)
+    cout << str1 << " comes before " << str2 << endl;
+
+//  if (str1 > str2)    <-- do not use!
+  if (strcmp(str1,str2) > 0)
+    cout << str1 << " comes after " << str2 << endl;
+
+  return 0;
+}

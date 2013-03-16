@@ -1,0 +1,103 @@
+Script started on Mon Oct 11 20:38:09 2010
+sh-3.00$ a.out
+ n     Overflows at m=
+---   -----------------
+  5    No overflow
+  6    No overflow
+  7    No overflow
+  8    No overflow
+  9    No overflow
+ 10    No overflow
+ 11    No overflow
+ 12    No overflow
+ 13    No overflow
+ 14    No overflow
+ 15    No overflow
+ 16    No overflow
+ 17    No overflow
+ 18    No overflow
+ 19    No overflow
+ 20    No overflow
+ 21    No overflow
+ 22    No overflow
+ 23    No overflow
+ 24    No overflow
+ 25    No overflow
+ 26    No overflow
+ 27    No overflow
+ 28    No overflow
+ 29    No overflow
+ 30    No overflow
+ 31    15
+ 32    13
+ 33    13
+ 34    12
+ 35    11
+ 36    11
+ 37    11
+ 38    10
+ 39    10
+ 40    10
+ 41    10
+ 42    10
+ 43    9
+ 44    9
+ 45    9
+ 46    9
+ 47    9
+ 48    9
+ 49    9
+ 50    8
+ 51    8
+ 52    8
+ 53    8
+ 54    8
+ 55    8
+ 56    8
+ 57    8
+ 58    8
+ 59    8
+ 60    8
+ 61    8
+ 62    8
+ 63    8
+ 64    7
+ 65    7
+ 66    7
+ 67    7
+ 68    7
+ 69    7
+ 70    7
+ 71    7
+ 72    7
+ 73    7
+ 74    7
+ 75    7
+ 76    7
+ 77    7
+ 78    7
+ 79    7
+ 80    7
+ 81    7
+ 82    7
+ 83    7
+ 84    7
+ 85    7
+ 86    7
+ 87    7
+ 88    7
+ 89    7
+ 90    7
+ 91    7
+ 92    7
+ 93    6
+ 94    6
+ 95    6
+ 96    6
+ 97    6
+ 98    6
+ 99    6
+100    6
+sh-3.00$ exit
+
+script done on Mon Oct 11 20:38:13 2010

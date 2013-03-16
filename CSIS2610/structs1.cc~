@@ -1,0 +1,9 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Bowler {
+  string name;
+  int scores[3];
+};
