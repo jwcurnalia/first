@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome adventurer to the realm of...</string>
+    <string name="app_name">Castle Quest</string>
+    <string name="title">Castle Quest</string>
+    <string name="classtit">Class:</string>
+    <string name="challengeindex">1</string>
+    <string name="preferencebutton">Preferences</string>
+    <string name="charspintitle">Select Character Class:</string>
+    <string name="fighter">Fighter</string>
+    <string name="thief">Thief</string>
+    <string name="mage">Mage</string>
+    <string name="strtit">STR:</string>
+    <string name="dextit">DEX:</string>
+    <string name="inttit">INT:</string>
+    <string name="hptit">HP:</string>
+    <string name="charname">Name:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="xptit">Experience:</string>
+    <string name="specspintitle">Select Special Ability:</string>
+    <string name="explore">EXPLORE</string>
+    <string name="battle">BATTLE</string>
+    <string name="attack">ATTACK</string>
+    <string name="special">SPECIAL ATTACK</string>
+    <string name="minion">Minion</string>
+    <string name="create">Create Character</string>
+    <string name="adventure">Adventure</string>
+    <string name="diffspintitle">Difficulty:</string>
+    <string name="ironman">Iron Man Mode</string>
+    <string name="reset">Reset Preferences</string>
+
+</resources>

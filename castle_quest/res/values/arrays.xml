@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="challenge_options">
+      <item>Easy</item>
+      <item>Normal</item>
+      <item>Hard</item>
+  </string-array>
+  <string-array name="character_options">
+      <item>Fighter: STR Attacks</item>
+      <item>Thief: DEX Attacks</item>
+      <item>Mage: INT Attacks</item>
+  </string-array>
+  <string-array name="fighter_options">
+      <item>Power Attack: Strong but Inaccurate Attack</item>
+      <item>Sunder: Reduce Enemy STR</item>
+      <item>Trip: Reduce Enemy DEX</item>
+  </string-array>
+  <string-array name="thief_options">
+      <item>Hide: Avoid 1 Attack and DEX Bonus</item>
+      <item>Snipe: Powerful Attack but Limits Mobility</item>
+      <item>Backstab: Damage and Hobble the Enemy</item>
+  </string-array>
+  <string-array name="mage_options">
+      <item>Magic Missile: Automatic Light Damage</item>
+      <item>Slow: Reduce Enemy DEX and STR</item>
+      <item>Flaming Hands: Burn Your Enemy</item>
+  </string-array>
+</resources>
